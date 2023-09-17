@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: cyan;
+      }
+     .container{
+      background-color: rgb(164, 135, 222);
+      border: 3px solid rgb(64,6,119);
+       margin-top: 3px;
+       margin-bottom: 5px;
+       margin-left: 34px;
+       margin-right: 5px;
+      /* We can set margin, padding top,bottom,left and like this */
+     /* padding-bottom: 79px;
+      padding-left: 34px; */
+     /* padding: 23px 56px 6px 78px; padding= top right bottom left */
+                              /*  margin= top right bottom left */
+      padding: 34px 19px;  /* padding: y(top/bottom) x(left/right);*/  
+      padding: 34px 19px;  /* margin: y(top/bottom) x(left/right);*/  
+      margin: 14px 19px;
+      border-radius: 23px;
+      width: 233px;
+      box-sizing: border-box;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <h3>This is my heading</h3>
+      <p  id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati ipsum repellat cupiditate iste,fugit perspiciatis inventore minima reiciendis cumque, explicabo non voluptas a ratione rem fugiat voluptatem facere voluptates!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p  id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati ipsum repellat cupiditate iste,fugit perspiciatis inventore minima reiciendis cumque, explicabo non voluptas a ratione rem fugiat voluptatem facere voluptates!</p>
+      </div>
+      <div class="container">
+        <h3>This is my heading</h3>
+        <p  id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati ipsum repellat cupiditate iste,fugit perspiciatis inventore minima reiciendis cumque, explicabo non voluptas a ratione rem fugiat voluptatem facere voluptates!</p>
+      </div>
+</body>
+</html>
